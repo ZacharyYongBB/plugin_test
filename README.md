@@ -1,16 +1,26 @@
 # plugin_test
 
-A new Flutter project.
+## Overview
+
+`plugin_test` is a Flutter project that showcases the integration of native iOS plugins with Flutter. This project includes a native plugin for accessing battery information and location services, combined with a SwiftUI view that displays real-time location updates.
+
+## Features
+
+- **Battery Plugin:** A native iOS plugin that retrieves the current battery level of the device.
+- **Location Plugin:** A native iOS plugin that fetches the current location coordinates (latitude and longitude) of the device.
+- **SwiftUI View:** Displays a SwiftUI interface for showing real-time location updates.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK
+- Xcode (for iOS development)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Clone the Repository:**
+
+   ```bash
+   git clone <repository-url>
+   cd plugin_test
